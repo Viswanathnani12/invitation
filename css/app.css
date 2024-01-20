@@ -21,7 +21,7 @@ body::-webkit-scrollbar {
 
 .font-es {
     font-family: 'Sacramento', cursive !important;
-    color: #000000 !important;
+    color: #ffffff !important;
 }
 
 .font-arabic {
@@ -71,9 +71,9 @@ body::-webkit-scrollbar {
 }
 
 .loading-page {
+    background-color: #d31b89;
     position: fixed;
     inset: 0 !important;
-    background-image: url("../assets/images/lbg2.png");
     object-fit:contain;
     z-index: 1056 !important;
 
