@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color:#219C90;
+    background-color:#1bc0d3;
     font-family: 'Josefin Sans', sans-serif !important;
     padding: 0 !important;
     -ms-overflow-style: none !important;
@@ -19,14 +19,19 @@ body::-webkit-scrollbar {
     color: #ffffff !important;
 }
 
+.font-es {
+    font-family: 'Sacramento', cursive !important;
+    color: #000000 !important;
+}
+
 .font-arabic {
     font-family: 'Noto Naskh Arabic', serif !important;
     color: #ffffff !important;
 }
 
 .img-crop {
-    width: 14rem;
-    height: 14rem;
+    width: 10rem;
+    height: 12rem;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
@@ -35,8 +40,27 @@ body::-webkit-scrollbar {
 .img-crop>img {
     display: inline;
     margin: 0 auto;
-    height: auto;
-    width: 100%;
+    margin-top: 1.9px;
+    height: 98%;
+    width: 98%;
+    border-radius: 50%;
+}
+
+.img-c {
+    width: 10rem;
+    height: 12rem;
+    position: relative;
+    overflow: hidden;
+    border: 0;
+
+}
+
+.img-c>img {
+    display: inline;
+    margin: 0 auto;
+    margin-top: 1.9px;
+    height: 98%;
+    width: 98%;
 }
 
 .btn-music {
@@ -49,10 +73,10 @@ body::-webkit-scrollbar {
 .loading-page {
     position: fixed;
     inset: 0 !important;
-    width: 100%;
-    height: 100%;
-    background-color: #eea4a4;
+    background-image: url("../assets/images/lbg2.png");
+    object-fit:contain;
     z-index: 1056 !important;
+
 }
 
 .card-body {
@@ -110,7 +134,7 @@ body::-webkit-scrollbar {
 }
 
 .dark-section {
-    background-color: #5B0888 !important;
+    background-color: #bb5420 !important;
     text-justify: distribute;
     margin-top: -0.5rem;
     margin-bottom: -0.5rem;
