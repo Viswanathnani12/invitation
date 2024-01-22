@@ -5,21 +5,21 @@ html {
 .gap{
     background-color:#11111100;
     margin: 0;
-    background-image: url('../assets/images/t6.png');
+    /* background-image: url('../assets/images/t6.png');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     height: 50px;
 }
 
 .gap2{
     
     background-color:#11111100;
-    background-image: url('../assets/images/t6.png');
+    /* background-image: url('../assets/images/t6.png');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    height: 100px;
+    background-repeat: no-repeat; */
+    height: 50px;
 }
 
 body {
@@ -29,10 +29,10 @@ body {
     -ms-overflow-style: none !important;
     scrollbar-width: none !important;
     margin: 0;
-    background-image: url('../assets/images/t6.png');
+    /* background-image: url('../assets/images/t6.png');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 
 }
 
@@ -87,6 +87,7 @@ body::-webkit-scrollbar {
     overflow: hidden;
     border-radius: 50%;
     
+    
 }
 
 .img-c>img {
@@ -94,6 +95,7 @@ body::-webkit-scrollbar {
     margin: 0 auto;
     height: 98%;
     width: 98%;
+    
 }
 
 .btn-music {
@@ -188,11 +190,11 @@ body::-webkit-scrollbar {
     /* -ms-overflow-style: none !important;
     scrollbar-width: none !important; */
     overflow: hidden; 
-    background-image: url('../assets/images/t6.png');
+    /* background-image: url('../assets/images/t6.png');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+    background-repeat: no-repeat;*/
+    height: 100vh; 
     
 }
 
@@ -205,11 +207,11 @@ body::-webkit-scrollbar {
     /* margin-top: -0.5rem;
     margin-bottom: -0.5rem; */
     /* overflow: auto;  */
-    background-image: url('../assets/images/t6.png');
+    /* background-image: url('../assets/images/t6.png');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    height: 90vh;
+    background-repeat: no-repeat; */
+    height: 100vh;
 }
 
 footer {
